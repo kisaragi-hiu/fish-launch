@@ -1,7 +1,5 @@
 # launch
 
-[![Build Status][travis-badge]][travis-link]
-
 Run a command and forget about it.
 
 ```fish
@@ -13,18 +11,16 @@ end
 
 ## Install
 
-With [fisherman]
+With [fisherman](//github.com/fisherman/fisherman):
 
 ```fish
 fisher kisaragi-hiu/launch
 ```
+
+Or, alternatively, just copy the definition above into your configuration. This is made into a plugin for easier dependency tracking.
 
 ## Usage
 
 ```fish
 launch openbox --replace
 ```
-
-[travis-link]: https://travis-ci.org/kisaragi-hiu/launch
-[travis-badge]: https://img.shields.io/travis/kisaragi-hiu/launch.svg
-[fisherman]: https://github.com/fisherman/fisherman
